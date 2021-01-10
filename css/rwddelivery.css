@@ -1,0 +1,384 @@
+@charset "utf-8";
+
+
+
+@media screen and (max-width:1880px) {
+
+
+
+}
+
+
+@media screen and (max-width:1500px) {
+
+
+
+}
+
+
+@media screen and (max-width:1280px) {
+
+
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:1023px) {
+
+    /* 아티클1---------------------------------------------------------------------------------------------------------------------------- */
+.deli_article1_inner {
+    position: relative;
+    padding: 70px 40px 0px 40px;
+}
+/* 아티클1 메인 내용---------------------------------------------------------------------------------------------------------------------------- */
+.deli_article1_inner .deli_article1_content {
+    width: 719px;
+    padding: 495px 0px 0px 0px;
+}
+/* 아티클1 우측 모니터이미지 */
+.deli_article1_inner .deli_article1_img {
+    position: absolute; top: 70px; right: 0px;
+    width: 750px; height: 516px;
+}
+.deli_article1_inner .deli_article1_img img {
+    width: 100%; height: 100%;
+}
+
+
+    /* 아티클2---------------------------------------------------------------------------------------------------------------------------- */
+.deli_article2_inner {
+    position: relative;
+    padding: 89px 40px 84px 40px;
+}
+/* 아티클2 타이틀 제목 + 내용 */
+.deli_article2_inner .deli_article2_title h2 {
+    font-family: 'Mont-HeavyDEMO'; font-size: 3.2rem; line-height: 40px;
+}
+.deli_article2_inner .deli_article2_title p {
+    font-family: 'Mont-HeavyDEMO'; font-size: 2rem; line-height: 30px;
+    margin: 21px 0px 74px 0px;
+}
+/* 아티클2 색 + 폰트----------------------------------------------------------------------------------------------------- */
+/* 공통내용 */
+.deli_article2_inner .deli_article2_content .color {
+    float: none;
+    width: 100%; height: auto;
+}
+.deli_article2_inner .deli_article2_content .deli_font {
+    float: none;
+    width: 100%;
+    margin-right: 0px; margin-top: 74px;
+}
+.deli_article2_inner .deli_article2_content > div h3 {
+    font-family: 'Mont-HeavyDEMO'; font-size: 2.4rem; line-height: 21px;
+}
+/* 색깔 */
+.deli_article2_inner .deli_article2_content ul li {
+    float: left;
+    margin: 21px 25px 0px 0px;
+    width: 50px;
+}
+.deli_article2_inner .deli_article2_content ul li div {
+    display: inline-block;
+    width: 50px; height: 50px;
+    margin-bottom: 10px;
+}
+.deli_article2_inner .deli_article2_content ul li p {
+    text-align: center;
+    font-size: 1.2rem; line-height: 19px;
+}
+
+
+
+
+
+/* 아티클3---------------------------------------------------------------------------------------------------------------------------- */
+.deli_article3 {
+    padding: 137px 0px 100px 0px;
+    position: relative;
+}
+.deli_article3_inner {
+    padding: 0px 40px;
+}
+/* 아티클3 메인 내용---------------------------------------------------------------------------------------------------------------------------- */
+.deli_article3_inner .deli_article3_img {
+    float: right;
+    width: 280px; height: 446px;
+}
+.deli_article3_inner .deli_article3_img img {
+    width: 100%; height: 100%;
+}
+
+
+
+
+
+    
+    
+    
+    /* 아티클4---------------------------------------------------------------------------------------------------------------------------- */
+.deli_article4 {
+    padding-top: 137px;
+    background: #333;
+    position: relative;
+}
+/* 아티클4 이미지---------------------------------------------------------------------------------------------------------------------------- */
+.deli_article4_inner .deli_article4_img_box {
+    width: 100%; height: 100%;
+    margin-top: 105px;
+}
+.deli_article4_inner .deli_article4_img_box .img_point2 {
+    float: none;
+    width: 650px; height: 427px;
+    margin: 0px auto;
+}
+.deli_article4_inner .deli_article4_img_box .img_point2 img {
+    width: 100%;
+}
+
+
+
+
+/* 아티클5---------------------------------------------------------------------------------------------------------------------------- */
+.deli_article5 {
+    position: relative;
+}
+.deli_article5_inner {
+    width: 100%; height: 396px;
+    margin: 0px auto;
+    padding-top: 118.5px;
+}
+.deli_article5_inner .deli_article5_img {
+    width: 1058px; height: 719px;
+    transform: rotate(-20deg);
+    margin-left: -250px;
+}
+.deli_article5_inner .deli_article5_img img {
+    width: 100%; height: 100%;
+}
+
+
+
+
+/* 아티클6---------------------------------------------------------------------------------------------------------------------------- */
+.deli_article6 {
+    background: #d61f26;
+    padding-bottom: 269px;
+    height: 626px;
+}
+
+
+    
+    
+    
+
+    
+    
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width:768px) {
+
+    /* 아티클1---------------------------------------------------------------------------------------------------------------------------- */
+.deli_article1_inner {
+    position: relative;
+    padding: 70px 40px 0px 40px;
+}
+/* 아티클1 메인 내용---------------------------------------------------------------------------------------------------------------------------- */
+.deli_article1_inner .deli_article1_content {
+    width: 100%;
+    padding: 60px 0px 0px 0px;
+}
+/* 아티클1 홀리 로고 */
+.deli_article1_inner .deli_article1_logo_img {
+    width: 50px; height: 36.5px;
+}
+.deli_article1_inner .deli_article1_logo_img img {
+    width: 100%; height: 100%;
+}
+/* 아티클1 어플리케이션 문구 제목 */
+.deli_article1_inner .deli_article1_content span {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif; font-size: 1.2rem; line-height: 20px;
+    margin: 15.6px 0px 7px 0px;
+}
+/* 아티클1 delivery 제목 */
+.deli_article1_inner .deli_article1_content h3 {
+    width: 250px;
+    font-family: 'Mont-HeavyDEMO'; font-size: 3.6rem; line-height: 32px;
+    padding-bottom: 18.5px; margin-bottom: 25.5px;
+    border-bottom: 5px solid #d61f26;
+}
+/* 아티클1 메인페이지 설명 */
+.deli_article1_inner .deli_article1_content p {
+    font-size: 1.4rem; line-height: 20px;
+    padding: 0px 0.5px; margin-bottom: 130px;
+}
+/* 아티클1 우측 모니터이미지 */
+.deli_article1_inner .deli_article1_img {
+    position: static; top: 70px; right: 0px;
+    width: 281px; height: 194px;
+    margin: 0px auto;
+}
+.deli_article1_inner .deli_article1_img img {
+    width: 100%; height: 100%;
+}
+
+
+
+
+        /* 아티클2---------------------------------------------------------------------------------------------------------------------------- */
+/* 아티클2 타이틀 제목 + 내용 */
+.deli_article2_inner .deli_article2_title p {
+    font-family: 'Mont-HeavyDEMO'; font-size: 1.4rem; line-height: 20px;
+    margin: 21px 0px 74px 0px;
+}
+/* 아티클2 색 + 폰트----------------------------------------------------------------------------------------------------- */
+/* 공통내용 */
+.deli_article2_inner .deli_article2_content > div h3 {
+    font-family: 'Mont-HeavyDEMO'; font-size: 1.6rem; line-height: 15px;
+}
+/* 색깔 */
+.deli_article2_inner .deli_article2_content ul li {
+    float: left;
+    margin: 21px 25px 0px 0px;
+    width: 50px;
+}
+.deli_article2_inner .deli_article2_content ul li div {
+    display: inline-block;
+    width: 50px; height: 50px;
+    margin-bottom: 10px;
+}
+.deli_article2_inner .deli_article2_content ul li p {
+    text-align: center;
+    font-size: 1.2rem; line-height: 15px;
+}
+/* 폰트 */
+.deli_article2_inner .deli_article2_content .deli_font h3 {
+    margin-bottom: 10px;
+}
+.deli_article2_inner .deli_article2_content .deli_font p {
+    font-size: 1.2rem; line-height: 16px;
+}
+
+
+
+/* 아티클3---------------------------------------------------------------------------------------------------------------------------- */
+.deli_article3 {
+    padding: 137px 0px 0px 0px;
+    position: relative;
+}
+.deli_article3_inner {
+    padding: 0px 40px;
+}
+/* 아티클3 메인 내용---------------------------------------------------------------------------------------------------------------------------- */
+.deli_article3_inner .deli_article3_content {
+    float: none;
+    position: static; top: 50%;
+    transform: translateY(0%);
+    width: 100%;
+}
+.deli_article3_inner .deli_article3_content h3 {
+    font-family: 'Mont-HeavyDEMO'; font-size: 2.4rem; line-height: 21px;
+    color: #d61f26;
+}
+.deli_article3_inner .deli_article3_content h2 {
+    font-size: 3.2rem; line-height: 44px;
+    color: #000;
+    padding: 18px 0px 35px 0px;
+}
+.deli_article3_inner .deli_article3_content p {
+    font-size: 1.4rem; line-height: 20px;
+    margin-bottom: 89px;
+}
+.deli_article3_inner .deli_article3_img {
+    float: none;
+    width: 280px; height: 446px;
+    margin-bottom: -44px;
+}
+.deli_article3_inner .deli_article3_img img {
+    width: 100%; height: 100%;
+}
+
+
+
+
+    /* 아티클4---------------------------------------------------------------------------------------------------------------------------- */    
+    .deli_article4_inner {
+        padding: 0px 40px;
+        position: relative;
+        z-index: 99;
+        width: 100%; height: 100%;
+    }
+    /* 아티클4 메인 내용---------------------------------------------------------------------------------------------------------------------------- */
+    .deli_article4_inner .deli_article4_content h3 {
+        font-family: 'Mont-HeavyDEMO'; font-size: 2.4rem; line-height: 21px;
+        color: #d61f26;
+    }
+    .deli_article4_inner .deli_article4_content h2 {
+        font-family: 'Mont-HeavyDEMO'; font-size: 3.2rem; line-height: 44px;
+        margin: 18px 0px 35px 0px;
+        color: #fff;
+    }
+    .deli_article4_inner .deli_article4_content p {
+        font-size: 1.4rem; line-height: 20px;
+        margin: 0px auto;
+        color: #fff;
+        width: 100%;
+    }
+    /* 아티클4 이미지---------------------------------------------------------------------------------------------------------------------------- */
+    .deli_article4_inner .deli_article4_img_box {
+        width: 100%; height: 100%;
+        margin-top: 80px;
+    }
+    .deli_article4_inner .deli_article4_img_box .img_point2 {
+        float: none;
+        width: 266px; height: 150px;
+        margin: 0px auto;
+    }
+    .deli_article4_inner .deli_article4_img_box .img_point2 img {
+        width: 100%; height: 100%;
+    }
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width:359px) {
+    
+    
+
+}

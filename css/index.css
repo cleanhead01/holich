@@ -1,0 +1,475 @@
+@charset "utf-8";
+@font-face {
+    font-family:"Mont Heavy DEMO";
+    src:url("../font/font/Mont-HeavyDEMO.eot?") format("eot"),url("../font/Mont-HeavyDEMO.woff") format("woff"),url("../font/Mont-HeavyDEMO.ttf") format("truetype"),url("../font/Mont-HeavyDEMO.svg#Mont-HeavyDEMO") format("svg");
+    font-weight: normal; font-style: normal;
+}
+@font-face {
+    font-family:"Mont ExtraLight DEMO";
+    src:url("../font/Mont-ExtraLightDEMO.eot?") format("eot"),url("../font/Mont-ExtraLightDEMO.woff") format("woff"),url("../font/Mont-ExtraLightDEMO.ttf") format("truetype"),url("../font/Mont-ExtraLightDEMO.svg#Mont-ExtraLightDEMO") format("svg");
+    font-weight: normal; font-style: normal;
+}
+/* montserrat_light */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+
+
+html, body {
+    overflow-y: none;
+}
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+.loading {
+    position: fixed; top: 0px; left: 0px; right: 0px; bottom: 0px;
+    z-index: 999999999999999999999999999999;
+    background: rgba(255,255,255,0.8);
+}
+.loading img {
+    position: absolute; top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+#section {
+    overflow: hidden;
+}
+/* 아티클1---------------------------------------------------------------------------------------------------------------------------- */
+.article1 {
+    max-width: 1080px;
+    padding-top: 219px; margin: 0px auto;
+}
+.article1_inner {
+    position: relative;
+    height: 731px;
+}
+/* 아티클1 우측 이미지---------------------------------------------------------------------------------------------------------------------------- */
+.article1_inner .who_we_are_img {
+    position: absolute; left: 546px; bottom: 0px;
+    width: 626px;
+    height: 731px;
+}
+.article1_inner .who_we_are_img object {
+    width: 100%; height: 100%;
+}
+/* 아티클1 텍스트---------------------------------------------------------------------------------------------------------------------------- */
+.article1_inner .who_we_are_txt {
+    padding-left: 82px;
+}
+.article1_inner .who_we_are_txt > h1 {
+    line-height: 64px;
+    font-size: 6.4rem; font-family: "Mont Heavy DEMO";
+    padding: 85px 158px 80px 0px;
+}
+.article1_inner .who_we_are_txt > p {
+    line-height: 32px;
+    font-size: 2rem; font-family: "Mont ExtraLight DEMO";
+    max-width: 396px; max-height: 192px;
+    /* border: 1px solid #000; */
+}
+/* 아티클1 터치버튼 */
+.article1_inner .who_we_are_txt .touch {
+    display: inline-block;
+    padding: 72px 0px 126px 0px;
+}
+.article1_inner .who_we_are_txt .touch img {
+    width: 100%;
+}
+
+
+
+/* 아티클2---------------------------------------------------------------------------------------------------------------------------- */
+.article2 {
+    background: #fafafa;
+    padding: 156px 0px 202px 0px;
+}
+.article2_inner {
+    max-width: 1007px;
+    margin: 0px auto;
+    position: relative;
+}
+/* 아티클2 타이틀 제목 */
+.article2_inner .article2_title {
+    margin-bottom: 104px;
+}
+.article2_inner .article2_title h2 {
+    font-size: 5.6rem; font-family: 'Mont Heavy DEMO';
+    width: 100%; line-height: 64px;
+}
+.article2_inner .article2_title h2 span {
+    color: #f4c53a;
+}
+/* 아티클2 콘텐트 내용-------------------------------------------------------------------------------------------------------------------------- */
+.article2_inner .article2_content .depth1 li {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 80px 0px 0px;
+    width: 250px; height: 318px;
+    /* position: relative; */
+}
+/* 아티클2 제목 */
+.article2_inner .article2_content .depth1 li h3 {
+    font-family: 'Mont Heavy DEMO'; font-size: 2.4rem;
+    margin-bottom: 32px;
+    line-height: 36px;
+}
+/* 아티클2 내용 */
+.article2_inner .article2_content .depth1 li p {
+    font-family: 'Montserrat', sans-serif; font-size: 1.6rem; line-height: 24px;
+    width: 250px; height: 218px;
+    margin-bottom: 32px;
+}
+/* 아티클2 모니터-------------------------------------------------------------------------------------------------------------------------- */
+.article2_inner .article2_content .depth1 {
+    /* position: relative; */
+}
+.article2_inner .article2_content .depth1 li.screen {
+    margin: 97px 0px 0px 54px;
+}
+.article2_inner .article2_content .depth1 li .article2_screen {
+    width: 480px; height: auto;
+}
+.article2_inner .article2_content .depth1 li .article2_screen img {
+    width: 100%; height: auto;
+}
+/* 아티클2 톱니봐퀴-------------------------------------------------------------------------------------------------------------------------- */
+.article2_inner .article2_wheel {
+    position: absolute; top: 50%; left: -131px;
+    transform: translateY(-50%);
+    max-width: 330px; max-height: 260px;
+}
+.article2_inner .article2_wheel img {
+    width: 100%;
+}
+
+
+
+
+/* 아티클3---------------------------------------------------------------------------------------------------------------------------- */
+.article3 {
+    padding: 158px 0px 165px 0px;
+}
+.article3_inner {
+    max-width: 1064px;
+    margin: 0px auto;
+}
+/* 아티클3 PC 메인 이미지-------------------------------------------------------------------------------------------------------------------------- */
+.article3_inner .article3_first {
+    display: block;
+}
+.article3_inner .article3_first .article3_business_img {
+    float: left;
+    max-width: 593px; max-height: 466px;
+    margin: 45px 0px 80px -45px;
+}
+.article3_inner .article3_first .article3_business_img img {
+    /* 여기도 이미지 크기 그대로 살려서 조절 */
+    width: 100%;
+}
+/* 아티클3 PC 메인 내용-------------------------------------------------------------------------------------------------------------------------- */
+.article3_inner .article3_first .article3_title {
+    max-width: 474px;
+    float: right;
+}
+.article3_inner .article3_first .article3_title h2 {
+    font-family: 'mont heavy demo'; font-size: 4.8rem;
+    line-height: 56px;
+    color: #f4c53a;
+    margin-left: -22px;
+}
+.article3_inner .article3_first .article3_title p {
+    font-family: 'montserrat', sans-serif; font-size: 2.4rem;
+    line-height: 36px;
+    padding: 40px 9px 67px 19px;
+}
+/* 아티클3 Mbile 메인 내용-------------------------------------------------------------------------------------------------------------------------- */
+.article3_inner .article3_first_mo {
+    display: none;
+    width: 100%; height: 430px;
+}
+.article3_inner .article3_first_mo .article3_business_mo {
+    width: 580px; height: 430px;
+    margin: 0px auto;
+    position: relative;
+}
+/* 아티클3 모바일 이미지 */
+.article3_inner .article3_first_mo .article3_business_mo .article3_business_mo_img {
+    width: 580px; height: 430px;
+    margin-left: -65px;
+}
+.article3_inner .article3_first_mo .article3_business_mo .article3_business_mo_img img {
+    width: 100%; height: 100%;
+}
+/* 아티클3 모바일 메인 내용 */
+.article3_inner .article3_first_mo .article3_business_mo .article3_title_mo {
+    width: 100%; height: 100%;
+    position: absolute; top: 0px; left: 0px;
+}
+.article3_inner .article3_first_mo .article3_business_mo .article3_title_mo h2 {
+    margin: 24px 230px 0px 185px;
+    width: 150px;
+    font-family: 'mont heavy demo'; font-size: 2rem;
+    line-height: 24px;
+    color: #f4c53a;
+}
+.article3_inner .article3_first_mo .article3_business_mo .article3_title_mo p {
+    margin-top: 76px;
+    width: 158px;
+    font-family: 'montserrat', sans-serif; font-size: 1.2rem;
+    line-height: 16px;
+    text-align: right;
+}
+
+/* 아티클3 공통 서브 내용-------------------------------------------------------------------------------------------------------------------------- */
+.article3_inner .article3_second > div {
+    width: 50%;
+}
+/* 서브내용 제목 */
+.article3_inner .article3_second > div h3 {
+    /* text-align: center; */
+    font-family: 'mont heavy demo'; font-size: 2.4rem;
+    line-height: 28px;
+    color: #f4c53a;
+    padding: 0px 11px 48px 132px;
+}
+.article3_inner .article3_second > div h3 p {
+    font-family: 'mont heavy demo'; font-size: 2.4rem;
+    line-height: 28px;
+    color: #f4c53a;
+}
+.article3_inner .article3_second .article3_doorlock {
+    float: left;
+    padding: 0px 69px 0px 84px;
+}
+.article3_inner .article3_second .article3_access {
+    float: right;
+    padding: 0px 23px 0px 73px;
+}
+/* 이미지랑 내용 */
+.article3_inner .article3_second > div > div {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+}
+/* 서브내용의 이미지 */
+.article3_inner .article3_second > div .img {
+    width: 148px; height: 112.48px;
+}
+.article3_inner .article3_second > div .img img {
+    width: 100%;
+}
+/* 서브내용의 공통 내용 */
+.article3_inner .article3_second > div .content {
+    width: 186px;
+}
+.article3_inner .article3_second > div .content > p {
+    font-size: 1.6rem; font-family: 'montserrat', sans-serif;
+    line-height: 24px;
+    width: 186px; height: 120px;
+    margin: 0px 0px 20px 52px;
+}
+.article3_inner .article3_second > div span {
+    font-size: 1.6rem; font-family: 'mont heavy demo';
+    margin-left: 52px;
+}
+
+
+
+
+/* 아티클4---------------------------------------------------------------------------------------------------------------------------- */
+.article4 {
+    background: #fafafa;
+    padding: 171px 0px 156px 0px;
+}
+.article4_inner {
+    max-width: 1251px;
+    margin: 0px auto;
+}
+/* 아티클4 채널 구역 */
+.article4_inner .article4_first {
+    text-align: right;
+}
+.article4_inner .article4_second {
+    position: relative;
+    margin-top: 150px;
+}
+/* 아티클4 채널 이미지 */
+.article4_inner .article4_first .article4_chanel_img {
+    width: 510px; height: 447px;
+    float: right;
+}
+.article4_inner .article4_first .article4_chanel_img img {
+    width: 100%;
+}
+/* 아티클4 채널 내용 */
+.article4_inner .article4_first .article4_chanel {
+    width: 484px;
+    float: right;
+}
+.article4_inner .article4_first .article4_chanel h2 {
+    font-size: 3.6rem; font-family: 'mont heavy demo';
+    line-height: 40px;
+}
+.article4_inner .article4_first .article4_chanel p {
+    font-size: 2rem; font-family: 'montserrat', sans-serif;
+    line-height: 32px;
+    margin: 50px 70px 0px 0px;
+}
+.article4_inner .article4_first .article4_chanel a {
+    display: inline-block;
+    margin: 61px 70px 0px 0px;
+    font-size: 1.8rem; font-family: 'montserrat', sans-serif;
+    line-height: 22px;
+}
+
+/* 아티클4 디스펜서 구역 */
+/* 아티클4 디스펜서 이미지 */
+.article4_inner .article4_second .article4_dispenser_img {
+    width: 565px; height: 375px;
+}
+.article4_inner .article4_second .article4_dispenser_img img {
+    width: 100%;
+}
+/* 아티클4 디스펜서 내용 */
+.article4_inner .article4_second .article4_dispenser {
+    width: 594px;
+    position: absolute; top: 0px; left: 415px;
+    /* transform: translateX(-50%); */
+}
+.article4_inner .article4_second .article4_dispenser h2 {
+    font-size: 3.6rem; font-family: 'mont heavy demo';
+    line-height: 40px;
+}
+.article4_inner .article4_second .article4_dispenser p {
+    font-size: 2rem; font-family: 'montserrat', sans-serif;
+    line-height: 32px;
+    margin: 50px 00px 0px 70px; padding-bottom: 0px;
+}
+.article4_inner .article4_second .article4_dispenser a {
+    display: inline-block;
+    margin: 42px 0px 0px 70px;;
+    font-size: 1.8rem; font-family: 'montserrat', sans-serif;
+    line-height: 22px;
+}
+
+
+
+
+
+
+/* 아티클5---------------------------------------------------------------------------------------------------------------------------- */
+.article5 {
+    padding: 156px 0px 136px 0px;
+    text-align: center;
+}
+/* 아티클5 제목 */
+.article5_inner h2 {
+    font-size: 5.6rem; font-family: 'mont heavy demo';
+    color: #f4c53a;
+    line-height: 40px;
+    margin-bottom: 158px;
+}
+/* 아티클5 공통내용 */
+.article5_inner > div {
+    display: inline-block;
+    vertical-align: top;
+}
+.article5_inner > div h3 {
+    font-size: 2.8rem; font-family: 'mont heavy demo';
+}
+
+/* 아티클5 메인내용---------------------------------------------------------------------------------------------------------------------------- */
+.article5_inner .article5_offices {
+    width: 50%; max-height: 460px;
+}
+/* 아티클5 맵 */
+.article5_inner .article5_offices .offices_img {
+    max-width: 318px; width: 100%;
+    margin: 40px auto;
+}
+.article5_inner .article5_offices .offices_img img {
+    width: 100%; height: auto;
+}
+.article5_inner .article5_offices p {
+    font-size: 1.6rem; font-family: 'mont heavy demo';
+    line-height: 15px;
+}
+/* 아티클5 컨택트 구역------------------------------------------------------------------------------------------------ */
+.article5_inner .article5_contact .contact_form {
+    text-align: left;
+    width: 450px;
+}
+.article5_inner .article5_contact .contact_form h3 {
+    margin-bottom: 18px;
+}
+.article5_inner .article5_contact .contact_form input {
+    display: block;
+    width: 450px; height: 56px;
+    border: 1px solid #f4c53a;
+    margin: 0px 0px 16px 0px; padding: 19px 0px 19px 20px;
+}
+.article5_inner .article5_contact .contact_form input::placeholder {
+    color: #cacaca;
+    font-family: 'montserrat', sans-serif; font-size: 1.6rem;
+    line-height: 19px;
+}
+.article5_inner .article5_contact .contact_form textarea {
+    width: 100%; height: 160px;
+    border: 1px solid #f4c53a;
+    resize: none;
+    font-size: 1.6rem;
+    padding: 18px 0px 0px 20px;
+}
+.article5_inner .article5_contact .contact_form textarea::placeholder {
+    color: #cacaca;
+    font-family: 'montserrat', sans-serif; font-size: 1.6rem;
+    line-height: 19px;
+}
+.article5_inner .article5_contact .contact_form .file_input {
+    float: left;
+}
+.article5_inner .article5_contact .contact_form .file_input input {
+    border: none; border-bottom: 1px solid #f4c53a;
+    max-width: 302px;
+    padding: 19px 0px 0px 20px; margin: 0px 0px 8px 0px;
+    color: #cacaca; background: none;
+    font-family: 'montserrat', sans-serif; font-size: 1.6rem;
+    line-height: 19px;
+}
+.article5_inner .article5_contact .contact_form .file_input span {
+    color: #cacaca;
+    font-size: 1.2rem;  font-family: 'montserrat', sans-serif;
+    text-align: right;
+    display: inline-block;
+    width: 100%;
+}
+.article5_inner .article5_contact .contact_form .file_button {
+    width: 128px; height: 44px; line-height: 22px;
+    margin-top: 20px;
+    text-align: center;
+    border: 1px solid #f4c53a; border-radius: 50px;
+    font-size: 1.6rem; font-family: 'montserrat', sans-serif;
+    float: right;
+}
+.article5_inner .article5_contact .contact_form .file_button label {
+    padding: 11px 17px;
+    display: inline-block;
+    color: #f4c53a;
+    width: 100%; height: 100%;
+    cursor: pointer;
+}
+.article5_inner .article5_contact .contact_form .file_button input {
+    display: none;
+}
+.article5_inner .article5_contact .contact_form button {
+    width: 100%; height: 56px;
+    background: #f4c53a; color: #fff;
+    font-size: 2rem; font-family: 'Mont-HeavyDEMO';
+    margin-top: 80px; padding: 17px 0px;
+}

@@ -1,0 +1,274 @@
+@charset "utf-8";
+
+
+
+/* 오른쪽부터 상단에 얇은 라인 */
+@keyframes RightLine1 {
+
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 0.3;
+        transform: translateY(0px);
+    }
+
+}
+.RightLine1 {
+    animation: RightLine1 2s infinite;
+}
+@keyframes RightLine2 {
+
+    0% {
+        opacity: 0;
+        transform: translateY(70px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
+}
+.RightLine2 {
+    animation: RightLine2 2s infinite;
+}
+@keyframes RightLine3 {
+
+    0% {
+        opacity: 0;
+        transform: translateY(150px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
+}
+.RightLine3 {
+    animation: RightLine3 2s infinite;
+}
+@keyframes RightLine4 {
+
+    0% {
+        transform: translateY(200px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+
+}
+.RightLine4 {
+    animation: RightLine4 2s infinite;
+}
+
+/* 왼쪽부터 상단에 넓은 판 */
+@keyframes LeftLine1 {
+
+    0% {
+        opacity: 0;
+        transform: translateY(105px);
+    }
+    100% {
+        opacity: 0.3;
+        transform: translateY(0px);
+    }
+
+}
+.LeftLine1 {
+    animation: LeftLine1 2s infinite linear;
+}
+@keyframes LeftLine2 {
+
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 0.3;
+        transform: translateY(0px);
+    }
+
+}
+.LeftLine2 {
+    animation: LeftLine2 2s infinite;
+}
+@keyframes LeftLine3 {
+
+    0% {
+        opacity: 0;
+        transform: translateY(70px);
+    }
+    100% {
+        opacity: 0.3;
+        transform: translateY(0px);
+    }
+
+}
+.LeftLine3 {
+    animation: LeftLine3 2s infinite;
+}
+@keyframes LeftLine4 {
+
+    0% {
+        transform: translateY(70px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+
+}
+.LeftLine4 {
+    animation: LeftLine4 2s infinite;
+}
+
+/* 바닥 금 간 라인 */
+@keyframes BottomLine1 {
+    0% {
+        transform: translate(-10px, -36px);
+    }
+    70% {
+        transform: translate(0px);
+    }
+    100% {
+        transform: translate(0px);
+    }
+}
+.BottomLine1 {
+    animation: BottomLine1 2s infinite linear;
+}
+@keyframes BottomLine2 {
+    0% {
+        transform: translate(-55px, -21px);
+    }
+    70% {
+        transform: translate(0px);
+    }
+    100% {
+        transform: translate(0px);
+    }
+}
+.BottomLine2 {
+    animation: BottomLine2 2s infinite linear;
+}
+@keyframes BottomLine3 {
+    0% {
+        transform: translate(0px, -80px);
+    }
+    70% {
+        transform: translate(0px, 0px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+.BottomLine3 {
+    animation: BottomLine3 2s infinite linear;
+}
+@keyframes BottomLine4 {
+    0% {
+        transform: translate(-72px, -34px);
+    }
+    70% {
+        transform: translate(0px, 0px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+.BottomLine4 {
+    animation: BottomLine4 2s infinite linear;
+}
+
+/* 화분의 나뭇잎 */
+@keyframes leaf1 {
+    0% {
+        transform: translate(0px);
+    }
+    35% {
+        transform: translate(-1px);
+    }
+    70% {
+        transform: translate(1px);
+    }
+    100% {
+        transform: translate(0px);
+    }
+}
+.leaf1 {
+    animation: leaf1 2s infinite linear;
+}
+@keyframes leaf2 {
+    0% {
+        transform: translate(0px);
+    }
+    35% {
+        transform: translate(1px);
+    }
+    70% {
+        transform: translate(-1px);
+    }
+    100% {
+        transform: translate(0px);
+    }
+}
+.leaf2 {
+    animation: leaf2 2s infinite linear;
+}
+@keyframes leaf3 {
+    0% {
+        transform: translate(0px);
+    }
+    35% {
+        transform: translate(1px);
+    }
+    70% {
+        transform: translate(-1px);
+    }
+    100% {
+        transform: translate(0px);
+    }
+}
+.leaf3 {
+    animation: leaf3 2s infinite linear;
+}
+@keyframes leaf4 {
+    0% {
+        transform: translate(0px);
+    }
+    35% {
+        transform: translate(-1px);
+    }
+    70% {
+        transform: translate(1px);
+    }
+    100% {
+        transform: translate(0px);
+    }
+}
+.leaf4 {
+    animation: leaf4 2s infinite linear;
+}
+
+/* 팔 */
+@keyframes LeftArm {
+    0% {
+        transform: translate(0px) rotate(0deg);
+        transform-origin: right top;
+    }
+    50% {
+        transform: translate(0px) rotate(0.7deg);
+        transform-origin: right top;
+    }
+    /* 70% {
+        transform: translate(0px) rotate(0.5deg);
+        transform-origin: right top;
+    } */
+    100% {
+        transform: translate(0px) rotate(0deg);
+        transform-origin: right top;
+    }
+}
+.LeftArm {
+    animation: LeftArm 2s infinite linear;
+}

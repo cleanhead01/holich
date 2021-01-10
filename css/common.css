@@ -1,0 +1,184 @@
+@charset "utf-8";
+@font-face {
+    font-family:"Mont Heavy DEMO";
+    src:url("../font/font/Mont-HeavyDEMO.eot?") format("eot"),url("../font/Mont-HeavyDEMO.woff") format("woff"),url("../font/Mont-HeavyDEMO.ttf") format("truetype"),url("../font/Mont-HeavyDEMO.svg#Mont-HeavyDEMO") format("svg");
+    font-weight: normal; font-style: normal;
+}
+@font-face {
+    font-family:"Mont ExtraLight DEMO";
+    src:url("../font/Mont-ExtraLightDEMO.eot?") format("eot"),url("../font/Mont-ExtraLightDEMO.woff") format("woff"),url("../font/Mont-ExtraLightDEMO.ttf") format("truetype"),url("../font/Mont-ExtraLightDEMO.svg#Mont-ExtraLightDEMO") format("svg");
+    font-weight: normal; font-style: normal;
+}
+/* montserrat_light */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+
+
+
+
+html {
+    font-size: 10px;
+}
+.row {
+    max-width: 1080px; margin: 0px auto;
+}
+
+#header {
+    box-shadow: 0px 2px 8px 1px #ddd;
+    background: #fff;
+    position: fixed; top: 0px; left: 0px;
+    width: 100%; height: 118px;
+    z-index: 99999999999999999999;
+    /* 헤더 z-index 20개로 맨 위 */
+}
+.header_box {
+    height: 118px;
+    position: relative;
+    z-index: 9999999999;
+    /* 모바일로 갔을 떄도 맨위로 올라와야 됨 z-index 10개 */
+}
+/* 헤더 홀리츠 로고--------------------------------------------------------------------------------------------------------------------------- */
+.header_box .logo {
+    max-width: 119px; max-height: 53px;
+    padding: 41px 0px 24px 0px;
+    float: left;
+}
+.header_box .logo img {
+    width: 100%;
+}
+/* 헤더 메뉴--------------------------------------------------------------------------------------------------------------------------- */
+.header_box .nav {
+    float: right;
+    text-align: right;
+    font-size: 1.5rem; font-family: "Mont ExtraLight DEMO";
+    color: #252525;
+    /* 글자 패딩으로 위치 조정 */
+    margin: 72px 0px 31px 0px;
+}
+/* 메뉴 리스트 */
+.header_box .nav .depth1 > li {
+    display: inline-block;
+    padding-left: 23.5px;
+    /* 언어메뉴를 만들면 주석 풀어야 됨 */
+    /* position: relative; */
+}
+/* .header_box .nav .depth1 > li:last-child::before {
+    content: "";
+    position: absolute; left: 0px;
+    width: 1px; height: 16px;
+    background: #f4c53a;
+}
+.header_box .nav .depth1 > li:last-child::after {
+    content: "\f078";
+    font-family: 'Font Awesome 5 Free'; font-weight: 900 !important; font-size: 12px;
+    position: absolute; right: 0px;
+    color: #f4c53a;
+} */
+/* 클래스 온이 붙으면 폰트체 변경---------------------------------------------------------------------------------------------------------------- */
+.header_box .nav .depth1 > li.on {
+    display: inline-block;
+    color: #252525;
+    position: relative;
+    font-family: "Mont Heavy DEMO";
+}
+/* 언어 두번째 메뉴 */
+.header_box .nav .depth2 {
+    display: none;
+    position: absolute; top: 100%; left: 0px;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
+    padding-top: 5px;
+    background: #fff;
+}
+.header_box .nav .depth2 li {
+    padding: 20px 23px;
+    position: relative;
+}
+/* 언어 메뉴2의 윗 선 */
+.header_box .nav .depth2 li:nth-of-type(1)::before {
+    content: "";
+    position: absolute; top: 0px; left: 50%;
+    transform: translateX(-50%);
+    width: 50%; height: 2px;
+    background: #ccc;
+}
+/* 헤더 햄버거 메뉴-------------------------------------------------------------------------------------------------------------------------- */
+.header_box .open_ham {
+    position: absolute; top: 50%; right: 10px;
+    transform: translateY(-50%);
+    display: none;
+    cursor: pointer;
+}
+.header_box .close_ham {
+    position: absolute; top: 50%; right: 10px;
+    transform: translateY(-50%);
+    display: none;
+    cursor: pointer;
+}
+/* 모바일 메뉴-------------------------------------------------------------------------------------------------------------------------- */
+.nav_mobile {
+    display: none;
+    position: fixed; top: 0px; left: 0px; bottom: 0px; right: 0px;
+    background: #fff;
+    z-index: 999999999;
+    /* 헤더보다는 아래 z-index 9개 */
+}
+.nav_mobile .depth1 {
+    position: absolute; top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    width: 100%;
+}
+.nav_mobile .depth1 li {
+    font-size: 2.8rem; font-family: 'montserrat', sans-serif;
+    padding: 0px 0px 44px 0px;
+}
+.nav_mobile .depth1 .language {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px 30px; margin: 20px 0px 0px;
+    position: relative;
+    width: 20%; min-width: 150px;
+}
+.nav_mobile .depth1 .language.on {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px 30px; margin: 20px 0px 0px;
+    position: relative;
+    width: 20%;
+    overflow: hidden;
+    font-family: 'Mont-HeavyDEMO';
+    color: #f4c53a;
+}
+.nav_mobile .depth1 .language:last-child::before {
+    content: "";
+    position: absolute; left: 0px;
+    width: 2px; height: 100%;
+    background: #f4c53a;
+}
+
+
+
+
+
+
+
+
+
+#footer {
+    height: 108px;
+    background: #252525;
+    text-align: center;
+    padding: 48px 0px;
+}
+#footer .copyright {
+    font-family: 'mont heavy demo'; font-size: 1.2rem;
+}
+#footer .copyright p {
+    display: inline-block;
+    color: #666;
+}
+#footer .copyright span {
+    display: inline-block;
+    color: #666;
+}

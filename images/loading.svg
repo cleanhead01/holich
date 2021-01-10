@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>loading copy 7</title>
+    <style>
+  .line {
+    stroke-dasharray: 80;
+    stroke-dashoffset: 20;
+    animation: dash2 2.5s infinite;
+  }
+
+  @keyframes dash2 {
+    to {
+      stroke-dashoffset: 500;
+    }
+  }
+
+    </style>
+    <g id="loading-copy-7" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Path-4" class="line" stroke="#FFCD00" stroke-width="3" stroke-linejoin="round" points="21 17 21 63 34 63 34 47.5 47 47.5 47 63 60 63 60 17 47 17 47 32.5 34 32.5 34 17"></polygon>
+        <!-- <circle id="Oval" fill="#FF9E18" cx="21.5" cy="17.5" r="1.5" class="ball"></circle> -->
+        <!-- <polyline id="Path" stroke="#FFCD00" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" points="26 17 34 17 34 32.5 47 32.5 47 17 60 17 60 57.5"></polyline>
+        <polyline id="Path" stroke="#FFCD00" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" points="54.5 63 47 63 47 47.5 34 47.5 34 63 21 63 21 22"></polyline> -->
+        <!-- <circle id="Oval-Copy" fill="#B4BD00" cx="60" cy="63" r="2"></circle> -->
+    </g>
+</svg>
