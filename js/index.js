@@ -119,7 +119,7 @@
         $('#mainContainerBox').css({
             display : 'none'
         })
-        $('#subContainerBox').load('../mememi.html #container', function(){
+        $('#subContainerBox').load('mememi.html #container', function(){
             $('html, body').animate({
                 scrollTop : '0'
             })
@@ -135,7 +135,7 @@
         $('#mainContainerBox').css({
             display : 'none'
         })
-        $('#subContainerBox').load('../delivery.html #container', function(){
+        $('#subContainerBox').load('delivery.html #container', function(){
             $('html, body').animate({
                 scrollTop : '0'
             })
@@ -151,7 +151,7 @@
         $('#mainContainerBox').css({
             display : 'none'
         })
-        $('#subContainerBox').load('../holychannel.html #container', function(){
+        $('#subContainerBox').load('holychannel.html #container', function(){
             $('html, body').animate({
                 scrollTop : '0'
             })
@@ -168,7 +168,7 @@
             display : 'none'
         })
 
-        $('#subContainerBox').load('../dispenser.html #container', function(){
+        $('#subContainerBox').load('dispenser.html #container', function(){
             $('#mainContainerBox').css({
                 display : 'none'
             })
